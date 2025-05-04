@@ -14,7 +14,7 @@ function OpeningCeremony(callback) {
     setTimeout(() => {
         outputDom("Let the games begin!\n");
         callback();
-    }, 4000);
+    }, 3000);
 }
 
 function Race100M(callback) {
