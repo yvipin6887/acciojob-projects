@@ -1,0 +1,11 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+#log {
+    white-space: pre-line;
+    background: #f0f0f0;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
