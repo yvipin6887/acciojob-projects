@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Signup page for creating an account" />
+  <title>Signup | Project</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+</head>
+<body>
+
+  <header>
+    <h1>Signup</h1>
+  </header>
+
+  <main>
+    <form action="/signup" method="POST">
+      
+      <div>
+        <input type="text" name="name" placeholder="Full Name" required />
+      </div>
+
+      <div>
+        <input type="email" name="email" placeholder="Email" required />
+      </div>
+
+      <div>
+        <input type="password" name="password" placeholder="Password" required />
+      </div>
+
+      <div>
+        <input type="password" name="confirmPassword" placeholder="Confirm Password" required />
+      </div>
+
+      <div>
+        <input type="date" name="dob" placeholder="Date of Birth" required />
+      </div>
+
+      <fieldset>
+        <legend>Role</legend>
+        <label>
+          <input type="radio" name="role" value="student" required /> Student
+        </label>
+        <label>
+          <input type="radio" name="role" value="employee" required /> Employee
+        </label>
+      </fieldset>
+
+      <div>
+        <label>
+          <input type="checkbox" name="terms" required />
+          I agree to all the Terms and conditions
+        </label>
+      </div>
+
+      <button type="submit">Signup</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>© 2025 Your Project. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
