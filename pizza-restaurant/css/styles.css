@@ -30,3 +30,163 @@ body {
   margin: 10px auto 20px auto;
 }
 
+.menu-section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.description {
+  max-width: 700px;
+  margin: 0 auto 40px;
+  font-size: 1rem;
+  color: #ccc;
+}
+
+.menu-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+.menu-item {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  background-color: #1c1c1c;
+  border-radius: 10px;
+  padding: 15px;
+  flex: 1 1 45%;
+}
+
+.menu-img {
+  width: 120px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.menu-text h3 {
+  color: #ffc107;
+  margin: 0 0 5px;
+  font-size: 1.1rem;
+}
+
+.menu-text p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .menu-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .menu-img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.site-footer {
+  background-color: #111;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.footer-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.footer-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 30px;
+}
+
+.footer-col {
+  flex: 1 1 45%;
+  margin-bottom: 20px;
+}
+
+.footer-col.left {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.footer-col.right {
+  text-align: left;
+}
+
+.footer-col p,
+.phone-numbers a {
+  margin: 0 0 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.footer-col a:hover {
+  text-decoration: underline;
+}
+
+.phone-group {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.phone-numbers {
+  display: flex;
+  flex-direction: column;
+}
+
+.bi {
+  margin-right: 8px;
+  font-size: 1rem;
+  vertical-align: middle;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .footer-row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-col {
+    text-align: center;
+  }
+
+  .footer-col.right {
+    text-align: center;
+  }
+
+  .phone-group {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .phone-numbers {
+    align-items: center;
+  }
+}
+
