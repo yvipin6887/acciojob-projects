@@ -1,0 +1,32 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-top: 70px;
+  background-color: #000000;
+}
+
+.hero {
+  height: 90vh;
+  background: url('../images/hero.jpg') no-repeat center center/cover;
+  position: relative;
+}
+
+.hero .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.hero .content {
+  z-index: 1;
+}
+
+.underline {
+  width: 100px;
+  height: 3px;
+  background-color: red;
+  margin: 10px auto 20px auto;
+}
+
