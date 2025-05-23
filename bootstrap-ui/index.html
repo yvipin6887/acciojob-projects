@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Bootstrap Website</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+<!-- 1. Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+  <div class="container">
+    <a class="navbar-brand fw-bold text-black" href="#">Complex UI</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link text-black" href="#">Section 1</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-black" href="#">Section 2</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-black" href="#">Section 3</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<div id="mainCarousel" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="2"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./images/hero1.jpg" class="d-block w-100" alt="Slide 1">
+    </div>
+    <div class="carousel-item">
+      <img src="./images/hero2.jpg" class="d-block w-100" alt="Slide 2">
+    </div>
+    <div class="carousel-item">
+      <img src="./images/hero2.jpg" class="d-block w-100" alt="Slide 3">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+<section class="container py-5">
+  <div class="d-flex flex-wrap justify-content-center gap-4 text-center">
+    <div class="short-description">
+      <div class="bg-secondary mb-2 short-box"></div>
+      <p>Short description</p>
+    </div>
+    <div class="short-description">
+      <div class="bg-secondary mb-2 short-box"></div>
+      <p>Short description</p>
+    </div>
+    <div class="short-description">
+      <div class="bg-secondary mb-2 short-box"></div>
+      <p>Short description</p>
+    </div>
+  </div>
+</section>
+
+<section class="container py-5">
+  <div class="gallery-main-grid">
+    <div class="left-gallery">300 x 200</div>
+    <div class="right-gallery">
+      <div class="gallery-box">300 x 200</div>
+      <div class="gallery-box">300 x 200</div>
+      <div class="gallery-box">300 x 200</div>
+      <div class="gallery-box">300 x 200</div>
+      <div class="gallery-box">300 x 200</div>
+      <div class="gallery-box">300 x 200</div>
+    </div>
+  </div>
+  <div class="gallery2-main-grid py-2">
+    <div class="gallery-box">300 x 200</div>
+    <div class="gallery-box">300 x 200</div>
+  </div>
+</section>
+
+<section class="container py-4">
+  <div class="row g-4">
+    <!-- Card 1 -->
+    <div class="col-md-4">
+      <div class="card shadow-sm h-100">
+        <div class="gallery-box"></div>
+        <div class="card-body">
+          <h5 class="card-title">Card Title</h5>
+          <p class="card-text">Card description</p>
+          <a href="#" class="btn btn-primary transition-hover">Call to Action</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="col-md-4">
+      <div class="card shadow-sm h-100">
+        <div class="gallery-box"></div>
+        <div class="card-body">
+          <h5 class="card-title">Card Title</h5>
+          <p class="card-text">Card description</p>
+          <a href="#" class="btn btn-primary transition-hover">Call to Action</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="col-md-4">
+      <div class="card shadow-sm h-100">
+        <div class="gallery-box"></div>
+        <div class="card-body">
+          <h5 class="card-title">Card Title</h5>
+          <p class="card-text">Card description</p>
+          <a href="#" class="btn btn-primary transition-hover">Call to Action</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <section class="container py-2">
+    <div class="footer-columns">
+      <div class="footer-column">
+        <h4>Useful Links</h4>
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+      </div>
+      <div class="footer-column">
+        <h4>More Links</h4>
+        <a href="#">Link 4</a>
+        <a href="#">Link 5</a>
+        <a href="#">Link 6</a>
+      </div>
+      <div class="footer-column">
+        <h4>Contact Us</h4>
+        <p>Email: example@example.com</p>
+        <p>Phone: +1 (555) 123-4567</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>© 2023 Complex UI. All Rights Reserved.</span>
+      <a href="#" class="back-to-top">Back to Top</a>
+    </div>
+  </section>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
