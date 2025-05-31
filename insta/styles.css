@@ -1,0 +1,166 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fafafa;
+}
+
+.app {
+  display: flex;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.sidebar {
+  width: 220px;
+  padding: 20px;
+  border-right: 1px solid #ddd;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  background: white;
+}
+
+.logo {
+  font-size: 24px;
+  margin-bottom: 30px;
+  font-family: cursive;
+}
+
+.nav {
+  list-style: none;
+  padding: 0;
+}
+
+.nav li {
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+.main-feed {
+  flex: 1;
+  padding: 20px;
+}
+
+.stories {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.story {
+}
+
+.story-inner {
+  background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+  padding: 3px;
+  border-radius: 50%;
+  width: 66px;
+  height: 71px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0 5px;
+}
+
+.story-inner img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.story-name {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 5px;
+  color: #333;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+}
+
+
+.post {
+  margin: auto;
+  width: 470px;
+  background: white;
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.post-header img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.post-header > div:last-child {
+  margin-left: auto;
+  font-size: 20px;
+}
+
+.post-img {
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.post-actions {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.post-content {
+  display: grid;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.post-likes,
+.post-caption,
+.comment-box {
+  font-size: 14px;
+}
+
+.comment {
+  color: #888;
+}
+
+.comment-box {
+  font-size: 14px;
+  color: #262626;
+}
+
+.suggestions {
+  width: 250px;
+  padding: 20px;
+}
+
+.profile {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.suggested-users {
+  list-style: none;
+  padding: 0;
+}
+
+.suggested-users li {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
