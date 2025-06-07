@@ -1,0 +1,55 @@
+* {
+    margin: 0px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color:white;
+    margin: 35px 55px;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+.counter-display {
+    margin-bottom: 20px;
+}
+
+p {
+    font-weight: 300;
+    font-size: 18px;
+    color: lightgray;
+}
+
+hr {
+    width: 13%;
+    margin-top: 10px;
+}
+
+
+.buttons {
+    display: flex;
+    gap: 3px;
+}
+
+.buttons > button {
+    border-radius: 0px;
+    border: 1px solid lightgray;
+    cursor: pointer;
+    width: 120px;
+    height: 30px;
+}
+
+#clearBtn {
+    background-color: black;
+    color: white;
+}
+
+#error {
+    color: red;
+    margin-top: 10px;
+    font-weight: bold;
+    display: none;
+}
