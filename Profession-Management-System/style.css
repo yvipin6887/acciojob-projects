@@ -1,0 +1,76 @@
+
+body {
+  background-color: black;
+  padding: 2px;
+  color: white;
+}
+
+.container {
+    padding: 15px;
+    margin: 15px;
+}
+
+.form {
+    display: flex;
+    justify-content: space-between;
+}
+
+#employeeList {
+    display: grid;
+    gap: 15px;
+    width: 800px;
+}
+
+.employee-list {
+    display: grid;
+    gap:5px;
+    grid-template-columns: 1fr 150px;
+    align-items: center;
+    font-size: 18px;
+}
+.dataBody {
+    display: grid;;
+    grid-template-columns: 50px 1fr 1fr 100px;
+    border: 1px solid;
+    padding: 0px 7px;
+    border-radius: 10px;
+}
+
+.action {
+    padding: 5px;
+}
+
+.action > button {
+    padding: 5px 15px;
+    border: 1px solid white;
+    border-radius: 25px;
+    font-size: 15px;
+}
+
+.add-user-btn {
+    padding: 5px 15px;
+    font-size: 24px;
+    color: black
+}
+.input_form {
+    display: grid;
+}
+
+input {
+    border: 1px solid white;
+    width: 250px;
+    padding: 6px;
+    padding: 8px 12px;
+    background-color: black;
+    margin-top: 7px;
+    color:white;
+}
+.error {
+  color: red;
+  font-size: 24px;
+}
+
+.success {
+  color: green;
+  font-size: 24px;
+}
