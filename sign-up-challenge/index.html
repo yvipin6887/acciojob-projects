@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Signup page for creating an account" />
+  <title>Signup | Project</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+</head>
+<body>
+
+  <header>
+    <h1>Signup</h1>
+  </header>
+
+  <main>
+    <div class="form-container">
+      <form action="#" method="POST">
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" name="email" placeholder="Email" />
+          <span class="error email" ></span>
+        </div>
+
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" name="password" placeholder="Password" />
+          <span class="error password" ></span>
+        </div>
+        <div class="form-group">
+            <span class="success" ></span>
+        </div>
+        <div class="form-group">
+          <button type="button" id="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+    
+  </main>
+
+  <script src="script.js" defer ></script>
+</body>
+</html>
