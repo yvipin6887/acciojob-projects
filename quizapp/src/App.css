@@ -1,0 +1,101 @@
+#root {
+  width: 100%;
+  margin: 0 auto;
+  padding: 2px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #282c34;
+  color: white;
+}
+
+.quiz-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 12px;
+  background: #f9f9f9;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.start {
+  margin: 50px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.btn {
+  padding: 12px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #0056b3;
+}
+
+.score-section {
+  font-size: 1.3rem;
+  color: #444;
+}
+
+.progress {
+  margin-top: 15px;
+  font-size: 0.9rem;
+  color: #777;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  gap: 1rem;
+}
+.optin-btn {
+  padding: 0.5em 1em;
+  background-color: #61dafb;
+  color: #282c34;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.optin-btn:hover {
+  background-color: #21a1f1;
+}
+
+.correct {
+  color: green;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.incorrect {
+  color: red;
+  font-weight: bold;
+  margin-top: 10px;
+}
